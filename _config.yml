@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Linh Nguyen portfolio"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Linh Nguyen"
 title_separator          : "-"
 name                     : &name "Linh Nguyen"
 description              : &description "Linh Nguyen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://lynnnguyen1.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/lynnnguyen1/linhnguyen-portfolio"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -23,14 +23,14 @@ repository               : "https://github.com/lynnnguyen1/linhnguyen-portfolio"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Hi!"
-  pronouns         : # example: "she/her"  
-  bio              : "Passionate about telomere and its variation"
-  location         : "Earth"
+  avatar           : "NguyenLinh_pic_Linh Nguyen.png"
+  name             : "Linh Nguyen"
+  pronouns         : she/her # example: "she/her"  
+  bio              : "Curious about telomere and plants"
+  location         : "Lawrence, KS"
   employer         : "University of Kansas"
   uri              : # URL
-  email            : "nguyen.linh.1010@ku.edu" 
+  email            : # email
 
   # Academic websites
   academia         : # URL
@@ -96,7 +96,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -222,13 +222,13 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
