@@ -23,7 +23,7 @@ repository               : "https://github.com/lynnnguyen1/lynnnguyen1.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "NguyenLinh_pic_Linh Nguyen.png"
+  avatar           : "pic-LN.jpg"
   name             : "Linh Nguyen"
   pronouns         : she/her # example: "she/her"  
   bio              : "Curious about telomere and plants"
